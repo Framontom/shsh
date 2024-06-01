@@ -1,0 +1,59 @@
+site_name: My Dogs
+
+nav:
+  - 首页:
+    - first.md
+  - 用户操作文档:
+    - 用户操作文档.md
+  - 需求分析:
+    - 需求分析.md
+  - 模块设计:
+    - modules.md
+  - API文档:
+    - api.md
+  - 数据库文档:
+    - models.md
+  - 技术选型与部署:
+    - frame.md
+  - 测试文档:
+    - test.md
+
+
+theme:
+  name: material
+
+  features:
+    - navigation.footer
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+
+  palette:
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: pink
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+repo_url: https://gitlab.secoder.net/kobebryant/back-end-kobe.git
+repo_name: back-end-kobe/kobebryant
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/mastodon
+      link: https://fosstodon.org/@squidfunk
+      name: squidfunk on Fosstodon
+  
+copyright: Copyright &copy; 1978 - 2020 Kobe Bryant
